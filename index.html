@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropBox Remake</title>
+
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            height: 50px;
+            border-bottom: 1px solid rgb(230, 230, 230);
+        }
+
+        .dropboxlogo {
+            background-color: blue;
+            float: left;
+            height: inherit;
+            width: 50px;
+        }
+
+        .navheaderdiv {
+            position: relative;
+            float: left;
+            height: inherit;
+            width: 20%;
+        }
+
+        nav img {
+            width: 50px;
+            float: left;
+            height: auto;
+            filter: saturate(0) brightness(0) invert();
+        }
+
+
+        nav h2 {
+            color: black;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+            padding-left: 10px;
+            top: 50%;
+            transform: translate(0%, -50%);
+            font-weight: bolder;
+
+        }
+
+        .divtop {
+            text-align: center;
+            position: relative;
+            margin: 5%;
+        }
+
+        .divtop2 {
+            min-width: 400px;
+            width: 20%;
+            margin: auto;
+            height: inherit;
+
+        }
+
+        .googleclass img {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0%, -50%);
+            height: 20px;
+            width: 20px;
+        }
+
+        .loginclass {
+            width: 80%;
+            margin: auto;
+
+        }
+
+        .loginclass h2 {
+            text-align: left;
+        }
+
+        .loginclass .googleclass {
+            border: 1px solid black;
+            position: relative;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+            height: 30px;
+            max-width: 100%;
+        }
+
+        p {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .loginclass .googleclass h4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .divtop2 form {
+            width: 80%;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+        }
+
+        .divtop2 input[type=text] {
+            border: 1 px solid gray;
+            width: 100%;
+            height: 30px;
+            margin-top: 0px;
+        }
+
+        .divtop2 input[type=submit] {
+            width: 100%;
+            height: 30px;
+            margin-top: 20px;
+            color: white;
+            background-color: blue;
+            border: 1px solid black;
+            font-weight: bold;
+
+        }
+
+
+        .divbot {
+            position: relative;
+            background-color: black;
+            color: white;
+            padding:50px;
+
+        }
+
+        .list {
+            display: inline-block;
+            text-align: left;
+            margin: 5%;
+        }
+
+        .list ul {
+            padding: 0px;
+            float: left;
+            padding-top: 10px;
+        }
+
+        .list li {
+            list-style-type: none;
+            text-align: left;
+            padding-top: 20px;
+        }
+
+        .innerdivbot {
+            position: relative;
+            text-align: center;
+            width: 75%;
+            height: 100%;
+            margin: auto;
+        }
+
+        .socialmedia img {
+            width: 25px;
+            height: auto;
+        }
+
+        .socialmedia .youtubelogo {
+            filter: saturate(0) brightness(0) invert();
+        }
+
+        .socialmedia {
+            color: white;
+            font-size: 32;
+            text-align: left;
+            margin-left:5%;
+        }
+
+        .line {
+            margin: auto;
+            margin-top: 30px;
+            margin-left: 5%;
+            margin-bottom: 30px;
+        }
+
+        .line2 {
+            border-bottom: 1px solid rgb(230, 230, 230);
+            width: 175px;
+
+        }
+
+        .langselect{
+            position: relative;
+            text-align: left;
+            margin: auto;
+            margin-left: 5%;
+
+        }
+
+        .langselect img {
+            width: 25px;
+            height: auto;
+            filter: invert();
+        }
+
+        .langselect span{
+            position: absolute;
+            top: 50%;
+            left: 3%;
+            transform: Translate(0%,-50%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="dropboxlogo">
+            <img src="1101px-Dropbox_Icon.svg.png" alt="5">
+        </div>
+
+        <div class="navheaderdiv">
+            <h2 class="navlogoheader">Dropbox</h2>
+        </div>
+
+    </nav>
+
+    <div class="divtop">
+        <div class="divtop2">
+            <div class="loginclass">
+                <h2>Log in or sign up</h2>
+                <div class="googleclass">
+
+                    <img src="googlelogo.jpg" alt="">
+                    <h4> Continue with Google</h4><br>
+                </div>
+                <div class="googleclass">
+                    <img src="applelogo.png" alt="">
+                    <h4>Continue with Apple</h4>
+                </div>
+            </div>
+            <p>or</p>
+
+            <form action="">
+                <label for="email">Email</label>
+                <input type="text"><br>
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+    </div>
+
+    <div class="divbot">
+        <div class="innerdivbot">
+            <div class="list">
+                <h2>Dropbox</h2>
+                <ul>
+                    <li>Desktop App</li>
+                    <li>Mobile App</li>
+                    <li>Integrations</li>
+                    <li>Features</li>
+                    <li>Solutions</li>
+                    <li>Do more than store</li>
+                    <li>Security</li>
+                    <li>Advance access</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2>Products</h2>
+                <ul>
+                    <li>Plus</li>
+                    <li>Professional</li>
+                    <li>Business</li>
+                    <li>Enterprise</li>
+                    <li>Dropbox Sign</li>
+                    <li>DocSend</li>
+                    <li>Plans</li>
+                    <li>Product updates</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2>Support</h2>
+                <ul>
+                    <li>Help center</li>
+                    <li>Contact us</li>
+                    <li>Privacy & terms</li>
+                    <li>Cookie policy</li>
+                    <li>Cookies & CCPA preferences</li>
+                    <li>Sitemap</li>
+                    <li>Learning resources</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2>Community</h2>
+                <ul>
+                    <li>Blog</li>
+                    <li>Developers</li>
+                    <li>Community forums</li>
+                    <li>Referrrals</li>
+                    <li>Reseller partners</li>
+                    <li>Integration partners</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2>Company</h2>
+                <ul>
+                    <li>About us</li>
+                    <li>Jobs</li>
+                    <li>Investor relations</li>
+                    <li>ESG</li>
+                    <li>Find a partner</li>
+                </ul>
+            </div>
+
+
+            <div class="socialmedia">
+                <a href="https://twitter.com/"><img src="twitterlogo.jpg" alt="twitter logo"></a>
+                <a href="facebook.com"><img src="facebooklogo.png" alt="facebook logo"></a>
+                <a href="https://www.youtube.com/"><img src="youtubelogo.png" class="youtubelogo"
+                        alt="youtube logo"></a>
+            </div>
+
+            <div class="line">
+
+                <div class="line2">
+                </div>
+            </div>
+
+            
+            <div class="langselect">
+                    <img src="languagesymbol.png" alt="language symbol"> <span>English (United States) ></span>
+            </div>
+
+       
+
+        </div>
+
+
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
