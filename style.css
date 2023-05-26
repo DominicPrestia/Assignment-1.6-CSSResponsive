@@ -1,0 +1,214 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 50px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.dropboxlogo {
+    background-color: blue;
+    float: left;
+    height: inherit;
+    width: 50px;
+}
+
+.navheaderdiv {
+    position: relative;
+    float: left;
+    height: inherit;
+    width: 20%;
+}
+
+nav img {
+    width: 50px;
+    float: left;
+    height: auto;
+    filter: saturate(0) brightness(0) invert();
+}
+
+
+nav h2 {
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding-left: 10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: bolder;
+
+}
+
+.divtop {
+    text-align: center;
+    position: relative;
+    margin: 5%;
+}
+
+.divtop2 {
+    min-width: 400px;
+    width: 20%;
+    margin: auto;
+    height: inherit;
+
+}
+
+.googleclass img {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    height: 20px;
+    width: 20px;
+}
+
+.loginclass {
+    width: 80%;
+    margin: auto;
+
+}
+
+.loginclass h2 {
+    text-align: left;
+}
+
+.loginclass .googleclass {
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 30px;
+    max-width: 100%;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.loginclass .googleclass h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.divtop2 form {
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+.divtop2 input[type=text] {
+    border: 1 px solid gray;
+    width: 100%;
+    height: 30px;
+    margin-top: 0px;
+}
+
+.divtop2 input[type=submit] {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    font-weight: bold;
+
+}
+
+
+.divbot {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding:50px;
+
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+    margin: 5%;
+}
+
+.list ul {
+    padding: 0px;
+    float: left;
+    padding-top: 10px;
+}
+
+.list li {
+    list-style-type: none;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.innerdivbot {
+    position: relative;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: auto;
+}
+
+.socialmedia .youtubelogo {
+    filter: saturate(0) brightness(0) invert();
+}
+
+.socialmedia {
+    color: white;
+    font-size: 32;
+    text-align: left;
+    margin-left:5%;
+}
+
+.line {
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.line2 {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    width: 175px;
+
+}
+
+.langselect{
+    position: relative;
+    text-align: left;
+    margin: auto;
+    margin-left: 5%;
+
+}
+
+.langselect img {
+    width: 25px;
+    height: auto;
+    filter: invert();
+}
+
+.langselect span{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: Translate(0%,-50%);
+}
